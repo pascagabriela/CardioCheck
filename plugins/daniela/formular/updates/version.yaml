@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table daniela_formular_data'
+    - builder_table_create_daniela_formular_data.php
+1.0.3:
+    - 'Created table daniela_formular_results'
+    - builder_table_create_daniela_formular_results.php
+1.0.4:
+    - 'Updated table daniela_formular_data'
+    - builder_table_update_daniela_formular_data.php
+1.0.5:
+    - 'Updated table daniela_formular_data'
+    - builder_table_update_daniela_formular_data_2.php

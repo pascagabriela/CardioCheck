@@ -1,0 +1,11 @@
+1683202356a:1:{s:28:"heartdiseasetestformular.htm";a:11:{s:8:"fileName";s:28:"heartdiseasetestformular.htm";s:7:"content";s:211:"title = "HeartDiseaseTestFormular"
+url = "/heartdiseasetestformular"
+layout = "test"
+is_hidden = 0
+
+[testFormular]
+
+[session]
+security = "all"
+==
+{% component 'testFormular' %}{% component 'session' %}";s:5:"mtime";i:1683122052;s:6:"markup";s:55:"{% component 'testFormular' %}{% component 'session' %}";s:4:"code";N;s:5:"title";s:24:"HeartDiseaseTestFormular";s:3:"url";s:25:"/heartdiseasetestformular";s:6:"layout";s:4:"test";s:9:"is_hidden";s:1:"0";s:12:"testFormular";a:0:{}s:7:"session";a:1:{s:8:"security";s:3:"all";}}}

@@ -1,0 +1,11 @@
+plugin:
+    name: 'daniela.formular::lang.plugin.name'
+    description: 'daniela.formular::lang.plugin.description'
+    author: Daniela
+    icon: oc-icon-bar-chart
+    homepage: ''
+navigation:
+    formular:
+        label: Formular
+        url: daniela/formular/formular_data_controller
+        icon: icon-bar-chart

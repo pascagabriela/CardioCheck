@@ -1,0 +1,11 @@
+plugin:
+    name: 'daniela.doctors::lang.plugin.name'
+    description: 'daniela.doctors::lang.plugin.description'
+    author: daniela
+    icon: oc-icon-truck
+    homepage: ''
+navigation:
+    doctor_menu_item:
+        label: Doctor
+        url: daniela/doctors/doctorscontroller
+        icon: icon-life-ring

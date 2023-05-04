@@ -1,0 +1,118 @@
+1683202356a:1:{s:13:"dashboard.htm";a:11:{s:8:"fileName";s:13:"dashboard.htm";s:7:"content";s:2746:"title = "Dashboard"
+url = "/dashboard"
+layout = "dashboard"
+is_hidden = 0
+
+[blogPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "{{ :slug }}"
+postsPerPage = 2
+noPostsMessage = "No posts found"
+sortOrder = "random"
+categoryPage = "post"
+postPage = "post"
+
+[session]
+security = "user"
+redirect = "login"
+==
+
+<div class="container">
+    <div class="row no-gutters-lg">
+        <div class="col-lg-8 mb-5 mb-lg-0">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    {% for post in posts %}
+                    {% if post.published_at|date('Y/m/d') < '2022/12/24' %}
+                    <article class="card article-card">
+                        <a>
+                            {% for image in post.featured_images|slice(0,1) %}
+                            <div class="card-image">
+                                <div class="post-info"> <span class="text-uppercase">{{post.published_at | date('d M, Y') }}</span>
+                                </div>
+                                <img loading="lazy" decoding="async" src="{{image.path}}" alt="Post Thumbnail" class="img-fluid">
+                                {% endfor %}
+                            </div>
+                        </a>
+                        <div class="card-body px-0 pb-1">
+                            <h2 class="h1"><a class="post-title" href="{{post.url}}">{{post.title}}</a></h2>
+                            <p class="card-text">{{post.content}}</p>
+                            <div class="content"> <a class="read-more-btn" href="{{post.excerpt}}">Read Full Article</a>
+                            </div>
+                        </div>
+                    </article>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            {% if posts.lastPage > 1 %}
+            <ul class="pagination">
+                <li><a style="color: red" href="{{ this.page.baseFileName|page({ pageParam: (posts.currentPage-1) }) }}">&larr; Prev</a></li>
+
+                {% for page in 1..posts.lastPage %}
+                <li class="{{ posts.currentPage == page ? 'active' : null }}">
+                    <a style="color: red" href="{{ this.page.baseFileName|page({ pageParam: page }) }}" class="mx-3">{{ page }}</a>
+                </li>
+                {% endfor %}
+
+                {% if posts.lastPage > posts.currentPage %}
+                <li><a style="color: red" href="{{ this.page.baseFileName|page({ pageParam: (posts.currentPage+1) }) }}">Next &rarr;</a></li>
+                {% endif %}
+            </ul>
+            {% endif %}
+
+        </div>
+        {% partial 'dashboard/sidebar' %}
+    </div>
+</div>
+
+";s:5:"mtime";i:1683199189;s:6:"markup";s:2414:"<div class="container">
+    <div class="row no-gutters-lg">
+        <div class="col-lg-8 mb-5 mb-lg-0">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    {% for post in posts %}
+                    {% if post.published_at|date('Y/m/d') < '2022/12/24' %}
+                    <article class="card article-card">
+                        <a>
+                            {% for image in post.featured_images|slice(0,1) %}
+                            <div class="card-image">
+                                <div class="post-info"> <span class="text-uppercase">{{post.published_at | date('d M, Y') }}</span>
+                                </div>
+                                <img loading="lazy" decoding="async" src="{{image.path}}" alt="Post Thumbnail" class="img-fluid">
+                                {% endfor %}
+                            </div>
+                        </a>
+                        <div class="card-body px-0 pb-1">
+                            <h2 class="h1"><a class="post-title" href="{{post.url}}">{{post.title}}</a></h2>
+                            <p class="card-text">{{post.content}}</p>
+                            <div class="content"> <a class="read-more-btn" href="{{post.excerpt}}">Read Full Article</a>
+                            </div>
+                        </div>
+                    </article>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            {% if posts.lastPage > 1 %}
+            <ul class="pagination">
+                <li><a style="color: red" href="{{ this.page.baseFileName|page({ pageParam: (posts.currentPage-1) }) }}">&larr; Prev</a></li>
+
+                {% for page in 1..posts.lastPage %}
+                <li class="{{ posts.currentPage == page ? 'active' : null }}">
+                    <a style="color: red" href="{{ this.page.baseFileName|page({ pageParam: page }) }}" class="mx-3">{{ page }}</a>
+                </li>
+                {% endfor %}
+
+                {% if posts.lastPage > posts.currentPage %}
+                <li><a style="color: red" href="{{ this.page.baseFileName|page({ pageParam: (posts.currentPage+1) }) }}">Next &rarr;</a></li>
+                {% endif %}
+            </ul>
+            {% endif %}
+
+        </div>
+        {% partial 'dashboard/sidebar' %}
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:9:"Dashboard";s:3:"url";s:10:"/dashboard";s:6:"layout";s:9:"dashboard";s:9:"is_hidden";s:1:"0";s:9:"blogPosts";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:11:"{{ :slug }}";s:12:"postsPerPage";s:1:"2";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:6:"random";s:12:"categoryPage";s:4:"post";s:8:"postPage";s:4:"post";}s:7:"session";a:2:{s:8:"security";s:4:"user";s:8:"redirect";s:5:"login";}}}

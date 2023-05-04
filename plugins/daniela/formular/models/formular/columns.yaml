@@ -1,0 +1,46 @@
+columns:
+    age:
+        label: Age
+        type: number
+        searchable: true
+        sortable: true
+    sex:
+        label: Sex
+        type: number
+        searchable: true
+        sortable: true
+    chest_pain:
+        label: 'Chest Pain Type'
+        type: number
+        searchable: true
+        sortable: true
+    resting_blood_pressure:
+        label: 'Resting blood pressure'
+        type: number
+        searchable: true
+        sortable: true
+    resting_ecg:
+        label: 'Resting ecg'
+        type: number
+        searchable: true
+        sortable: true
+    max_heart_rate:
+        label: 'Max heart rate'
+        type: number
+        searchable: true
+        sortable: true
+    exercise_angina:
+        label: 'Exercise angina'
+        type: number
+        searchable: true
+        sortable: true
+    oldpeak:
+        label: Oldpeak
+        type: number
+        searchable: true
+        sortable: true
+    st_slope:
+        label: STslope
+        type: number
+        searchable: true
+        sortable: true

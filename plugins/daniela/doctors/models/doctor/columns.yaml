@@ -1,0 +1,13 @@
+columns:
+    name:
+        label: name
+        type: text
+    phone:
+        label: phone
+        type: text
+    address:
+        label: address
+        type: text
+    description:
+        label: description
+        type: text

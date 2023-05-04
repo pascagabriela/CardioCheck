@@ -1,0 +1,6 @@
+columns:
+    target:
+        label: Target
+        type: number
+        searchable: true
+        sortable: true

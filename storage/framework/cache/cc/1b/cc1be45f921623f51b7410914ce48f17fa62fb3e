@@ -1,0 +1,8 @@
+1683202356a:1:{s:8:"post.htm";a:9:{s:8:"fileName";s:8:"post.htm";s:7:"content";s:115:"title = "Post"
+url = "/post/:slug?"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "about"
+==";s:5:"mtime";i:1682424067;s:6:"markup";s:0:"";s:4:"code";N;s:5:"title";s:4:"Post";s:3:"url";s:12:"/post/:slug?";s:9:"is_hidden";s:1:"0";s:8:"blogPost";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:5:"about";}}}

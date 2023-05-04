@@ -1,0 +1,18 @@
+1683202399a:1:{s:15:"site/footer.htm";a:5:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:319:"<div id="footer">
+    <div class="container">
+        <hr />
+        <div class="row">
+            <p class="muted credit col-9">&copy; <b>2022 - {{ "now"|date("Y") }}</b> Pașca Gabriela-Daniela.</p>
+            <p class="muted credit col-3"><b>Contact:</b> office@cardiocheck.com</p>
+        </div>
+    </div>
+</div>
+";s:5:"mtime";i:1680861837;s:6:"markup";s:318:"<div id="footer">
+    <div class="container">
+        <hr />
+        <div class="row">
+            <p class="muted credit col-9">&copy; <b>2022 - {{ "now"|date("Y") }}</b> Pașca Gabriela-Daniela.</p>
+            <p class="muted credit col-3"><b>Contact:</b> office@cardiocheck.com</p>
+        </div>
+    </div>
+</div>";s:4:"code";N;}}

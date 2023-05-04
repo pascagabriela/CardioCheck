@@ -1,0 +1,10 @@
+name: DoctorsController
+form: $/daniela/doctors/models/doctor/fields.yaml
+modelClass: daniela\Doctors\Models\Doctor
+defaultRedirect: daniela/doctors/doctorscontroller
+create:
+    redirect: 'daniela/doctors/doctorscontroller/update/:id'
+    redirectClose: daniela/doctors/doctorscontroller
+update:
+    redirect: daniela/doctors/doctorscontroller
+    redirectClose: daniela/doctors/doctorscontroller

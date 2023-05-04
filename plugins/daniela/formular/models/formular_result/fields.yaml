@@ -1,0 +1,6 @@
+fields:
+    target:
+        label: Target
+        span: full
+        required: 1
+        type: number

@@ -1,0 +1,56 @@
+1683202356a:1:{s:9:"about.htm";a:9:{s:8:"fileName";s:9:"about.htm";s:7:"content";s:1531:"title = "About"
+url = "/about"
+layout = "default"
+is_hidden = 0
+==
+<div class="container login_page">
+    <div class="row">
+        <div class="col-lg-7 px-5 mb-5 mb-lg-0 py-5">
+            <h1 class="mb-4">About Us</h1>
+            <div class="content">
+                <p>CardioCheck is a Professional Medical Platform. Here we will provide you only interesting content,
+                    which you will like very much. We're dedicated to providing you the best of Medical, with a focus on
+                    dependability and Heart disease prediction. We're working to turn our passion for Medical into a
+                    booming online website. We hope you enjoy our Medical as much as we enjoy offering them to you.</p>
+                <blockquote class="blockquote">
+                    <p>"A healthy heart will give you the courage to face and overcome any challenge in life."</p>
+                </blockquote>
+                <p>We hope you found all of the information on CardioCheck helpful, as we love to share them with
+                    you.</p>
+                <p>If you require any more information or have any questions about our site, please feel free to contact
+                    us by email at office@cardiocheck.com.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+
+            <img loading="lazy" decoding="async" src="{{ 'assets/images/about.jpg' | theme}}" alt="About Me"
+                height="550" width="450">
+        </div>
+    </div>
+</div>";s:5:"mtime";i:1681214093;s:6:"markup";s:1459:"<div class="container login_page">
+    <div class="row">
+        <div class="col-lg-7 px-5 mb-5 mb-lg-0 py-5">
+            <h1 class="mb-4">About Us</h1>
+            <div class="content">
+                <p>CardioCheck is a Professional Medical Platform. Here we will provide you only interesting content,
+                    which you will like very much. We're dedicated to providing you the best of Medical, with a focus on
+                    dependability and Heart disease prediction. We're working to turn our passion for Medical into a
+                    booming online website. We hope you enjoy our Medical as much as we enjoy offering them to you.</p>
+                <blockquote class="blockquote">
+                    <p>"A healthy heart will give you the courage to face and overcome any challenge in life."</p>
+                </blockquote>
+                <p>We hope you found all of the information on CardioCheck helpful, as we love to share them with
+                    you.</p>
+                <p>If you require any more information or have any questions about our site, please feel free to contact
+                    us by email at office@cardiocheck.com.</p>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+
+            <img loading="lazy" decoding="async" src="{{ 'assets/images/about.jpg' | theme}}" alt="About Me"
+                height="550" width="450">
+        </div>
+    </div>
+</div>";s:4:"code";N;s:5:"title";s:5:"About";s:3:"url";s:6:"/about";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

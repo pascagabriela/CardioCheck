@@ -1,0 +1,57 @@
+fields:
+    age:
+        label: Age
+        span: full
+        placeholder: ''
+        required: 1
+        type: number
+    sex:
+        label: Sex
+        span: full
+        required: 1
+        type: number
+    chest_pain:
+        label: 'Chest pain type'
+        span: full
+        required: 1
+        type: number
+    resting_blood_pressure:
+        label: 'Resting bloog pressure'
+        span: full
+        required: 1
+        type: number
+    cholesterol:
+        label: Cholesterol
+        span: full
+        required: 1
+        type: number
+    fasting_blood_sugar:
+        label: 'Fasting bloog sugar'
+        span: full
+        required: 1
+        type: number
+    resting_ecg:
+        label: 'Resting ecg'
+        span: full
+        required: 1
+        type: number
+    max_heart_rate:
+        label: 'Max heart rate'
+        span: full
+        required: 1
+        type: number
+    exercise_angina:
+        label: 'Exercise angina'
+        span: full
+        required: 1
+        type: number
+    oldpeak:
+        label: Oldpeak
+        span: full
+        required: 1
+        type: number
+    st_slope:
+        label: STslope
+        span: full
+        required: 1
+        type: number

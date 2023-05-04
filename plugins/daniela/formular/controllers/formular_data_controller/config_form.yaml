@@ -1,0 +1,10 @@
+name: Formular_data_controller
+modelClass: Daniela\Formular\Models\Formular
+form: $/daniela/formular/models/formular/fields.yaml
+defaultRedirect: daniela/formular/formular_data_controller
+create:
+    redirect: 'daniela/formular/formular_data_controller/update/:id'
+    redirectClose: daniela/formular/formular_data_controller
+update:
+    redirect: daniela/formular/formular_data_controller
+    redirectClose: daniela/formular/formular_data_controller

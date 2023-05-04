@@ -1,0 +1,42 @@
+1683199710a:1:{s:20:"site/dash_header.htm";a:6:{s:8:"fileName";s:20:"site/dash_header.htm";s:7:"content";s:1171:"[viewBag]
+==
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container px-5">
+        <a class="navbar-brand" href="{{ 'dashboard' | page }}">
+            <img src="{{ 'assets/images/LogoNew.png' | theme}}" height="70" width="170"></img src="
+            {{ 'assets/images/LogoNew.png' | theme}}">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="btn btn-sm rounded-pill" href="{{ 'heartdiseasetestformular'|page }}">Take
+                    a test</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" data-request="onLogout" data-request-data="redirect: '/home'">Log out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>";s:5:"mtime";i:1682426771;s:6:"markup";s:1154:"<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container px-5">
+        <a class="navbar-brand" href="{{ 'dashboard' | page }}">
+            <img src="{{ 'assets/images/LogoNew.png' | theme}}" height="70" width="170"></img src="
+            {{ 'assets/images/LogoNew.png' | theme}}">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="btn btn-sm rounded-pill" href="{{ 'heartdiseasetestformular'|page }}">Take
+                    a test</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" data-request="onLogout" data-request-data="redirect: '/home'">Log out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>";s:4:"code";N;s:7:"viewBag";a:0:{}}}

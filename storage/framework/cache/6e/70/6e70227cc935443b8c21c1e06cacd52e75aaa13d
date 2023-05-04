@@ -1,0 +1,31 @@
+1683202399a:1:{s:15:"site/header.htm";a:6:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1124:"[viewBag]
+==
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container px-5">
+        <a class="navbar-brand" href="{{ 'home'|page }}">
+            <img src="{{ 'assets/images/LogoNew.png' | theme}}" height="70" width="170"></img src="{{ 'assets/images/LogoNew.png' | theme}}">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="{{ 'about' | page }}">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ 'privacy-policy' | page }}">Privacy & Policy</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ 'terms-conditions' | page }}">Terms & Conditions</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>";s:5:"mtime";i:1680865203;s:6:"markup";s:1109:"<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container px-5">
+        <a class="navbar-brand" href="{{ 'home'|page }}">
+            <img src="{{ 'assets/images/LogoNew.png' | theme}}" height="70" width="170"></img src="{{ 'assets/images/LogoNew.png' | theme}}">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="{{ 'about' | page }}">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ 'privacy-policy' | page }}">Privacy & Policy</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ 'terms-conditions' | page }}">Terms & Conditions</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>";s:4:"code";N;s:7:"viewBag";a:0:{}}}
